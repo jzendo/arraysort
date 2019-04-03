@@ -5,10 +5,10 @@ function quickSort(arr) {
 	const m = Math.floor(l / 2)
 	const e = l - 1
 
-	// Swap: b | m
+	// Swap: b, m
 	if (arr[b] > arr[m])[arr[b], arr[m]] = [arr[m], arr[b]]
 
-	// Swap: m | e
+	// Swap: m, e
 	if (arr[m] > arr[e])[arr[m], arr[e]] = [arr[e], arr[m]]
 
 	if (m <= 1) return arr
