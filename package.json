@@ -1,0 +1,19 @@
+{
+  "name": "quicksort",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/jzendo/quicksort.git",
+  "author": "j <jzendo@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.0",
+    "jest": "^24.7.0"
+  },
+  "scripts": {
+    "build": "parcel build src/index.js --global sortExpress",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  }
+}
