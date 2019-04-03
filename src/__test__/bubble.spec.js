@@ -1,8 +1,6 @@
-import { commonTest } from './common'
-import bubbleSort, {
-  ERROR_MESSAGE_PARAM_INVALID_ARRAY
-} from '../bubble'
+import bubbleSort, { ERROR_MESSAGE_PARAM_INVALID_ARRAY } from '../bubble'
+import cases from './cases'
 
-commonTest(bubbleSort, {
+cases(bubbleSort, {
   ERROR_MESSAGE_PARAM_INVALID_ARRAY
 })

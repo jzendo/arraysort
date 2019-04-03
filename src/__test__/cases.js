@@ -1,4 +1,4 @@
-export function commonTest(sortFn, { ERROR_MESSAGE_PARAM_INVALID_ARRAY }) {
+export default function cases(sortFn, { ERROR_MESSAGE_PARAM_INVALID_ARRAY }) {
   /*
   let prev = Date.now()
   let current
@@ -40,6 +40,7 @@ export function commonTest(sortFn, { ERROR_MESSAGE_PARAM_INVALID_ARRAY }) {
     expect(sortFn([2, 3, 1, 3])).toEqual([1, 2, 3, 3])
     expect(sortFn([2, 4, 1, 3, 5])).toEqual([1, 2, 3, 4, 5])
     expect(sortFn([2, 3, 1, 5, 10, 6])).toEqual([1, 2, 3, 5, 6, 10])
+    expect(sortFn([1, 2, 3, 4, 5, 6])).toEqual([1, 2, 3, 4, 5, 6])
   })
 
   const COUNT = 3000

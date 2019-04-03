@@ -1,6 +1,6 @@
 import quickSort, { ERROR_MESSAGE_PARAM_INVALID_ARRAY } from '../quick'
-import { commonTest } from './common'
+import cases from './cases'
 
-commonTest(quickSort, {
+cases(quickSort, {
   ERROR_MESSAGE_PARAM_INVALID_ARRAY
 })
