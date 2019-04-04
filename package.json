@@ -1,10 +1,10 @@
 {
-  "name": "quicksort",
+  "name": "arraysort",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/jzendo/quicksort.git",
+  "repository": "https://github.com/jzendo/arraysort.git",
   "author": "j <jzendo@qq.com>",
-  "license": "MIT",
+  "license": "Apache License Version 2.0",
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
